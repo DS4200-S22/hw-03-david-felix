@@ -1,0 +1,19 @@
+body {
+	font-family: Arial;
+	color: green;
+}
+
+/*head {
+	position: ;
+}*/
+
+h1 {
+	text-align: center;
+}
+
+
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+}
