@@ -20,6 +20,11 @@ h2 {
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	justify-content: space-around;
+	gap: 30px 30px;	
 }
 
 
@@ -33,12 +38,7 @@ h2 {
 	flex-flow: row nowrap;
 
 }
-	flex-wrap: wrap;
-	justify-content: center;
-	justify-content: space-evenly;
-	justify-content: space-around;
-	gap: 30px 30px;	
-}
+
 
 .flex-item {
 	width: 400px;
