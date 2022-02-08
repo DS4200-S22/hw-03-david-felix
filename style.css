@@ -12,16 +12,27 @@ h1 {
 }
 
 h2 {
-	text-align: center;
+	text-align:  center;
 }
 
-/*img {
-
-}*/
 
 
 .flex-container {
 	display: flex;
+	flex-flow: row wrap;
+}
+
+
+.shapes {
+	max-width: 100%;
+	width: auto;
+	height: auto
+}
+.flexbox2 {
+	display: flex;
+	flex-flow: row nowrap;
+
+}
 	flex-wrap: wrap;
 	justify-content: center;
 	justify-content: space-evenly;
@@ -76,7 +87,6 @@ ul {
 	text-align: left;
 }
 
-
 .rect {
 	fill: darkgreen;
 
@@ -93,3 +103,4 @@ ul {
 .circ:hover {
 	fill: lightblue;
 }
+
