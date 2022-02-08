@@ -11,9 +11,41 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align:  center;
+}
 
 
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
+}
+
+
+.shapes {
+	max-width: 100%;
+	width: auto;
+	height: auto
+}
+.flexbox2 {
+	display: flex;
+	flex-flow: row nowrap;
+
+}
+
+.rect {
+	fill: darkgreen;
+
+}
+
+.rect:hover {
+	fill: lightgreen;
+}
+
+.circ {
+	fill: darkslateblue;
+}
+
+.circ:hover {
+	fill: lightblue;
 }
