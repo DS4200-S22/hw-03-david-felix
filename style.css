@@ -16,6 +16,7 @@ h2 {
 }
 
 
+
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -31,6 +32,59 @@ h2 {
 	display: flex;
 	flex-flow: row nowrap;
 
+}
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	justify-content: space-around;
+	gap: 30px 30px;	
+}
+
+.flex-item {
+	width: 400px;
+	height: 240 px;
+	border-style: solid;
+	color: black;
+	border-width: thick;
+	border-radius: 5px;
+}
+
+.item {
+	flex-basis: auto;
+	width: 400px;
+	height: 240px;
+}
+
+.description {
+	padding: 5px 15px;
+}
+
+.flex-container2 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	justify-content: space-around;
+	gap: 30px 30px;	
+}
+
+#flexbox2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.shape {
+	flex-shrink: 1;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+
+ul {
+	text-align: left;
 }
 
 .rect {
@@ -49,3 +103,4 @@ h2 {
 .circ:hover {
 	fill: lightblue;
 }
+
